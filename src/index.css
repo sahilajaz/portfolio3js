@@ -15,7 +15,7 @@ body {
 
 @layer utilities {
   .c-space {
-    @apply sm:px-10 px-5;
+    @apply  sm:px-10 px-5;
   }
 
   .head-text {
@@ -57,7 +57,7 @@ body {
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
+    @apply text-center xl:text-4xl md:text-4xl sm:text-3xl text-2xl font-generalsans font-black !leading-normal;
   }
 
   /* about section */
