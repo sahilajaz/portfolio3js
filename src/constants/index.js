@@ -58,19 +58,17 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-        subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-        texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+        title: 'Stick Notes',
+        desc: 'Stickynotes is a revolutionary web app that transforms the way you organize your thoughts. With an intuitive interface, it allows users to quickly create, edit, and manage sticky notes for tasks, ideas, and reminders, all in one place.',
+        subdesc: 'Built with React, Tailwind CSS, and powered by modern web technologies, Stickynotes offers seamless performance and an intuitive user experience for effortless note management.',
+        href: 'https://notessticky12.netlify.app/',
+        texture: '/textures/project/stickynotes.mp4',
+        logo: '/assets/sn.jpg',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight1.png',
         tags: [
             {
                 id: 1,
@@ -80,20 +78,11 @@ export const myProjects = [
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: '/assets/tailwindcss.png',
             },
         ],
-    },
+    }
+    ,
     {
         title: 'LiveDoc - Real-Time Google Docs Clone',
         desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
@@ -118,6 +107,16 @@ export const myProjects = [
                 id: 2,
                 name: 'TailwindCSS',
                 path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
             },
             {
                 id: 3,
@@ -257,32 +256,53 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     };
 };
 
+// export const workExperiences = [
+//     {
+//         id: 1,
+//         name: 'Framer',
+//         pos: 'Lead Web Developer',
+//         duration: '2022 - Present',
+//         title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+//         icon: 'assets/framer.svg',
+//         animation: 'victory',
+//     },
+//     {
+//         id: 2,
+//         name: 'Figma',
+//         pos: 'Web Developer',
+//         duration: '2020 - 2022',
+//         title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+//         icon: 'assets/figma.svg',
+//         animation: 'clapping',
+//     },
+//     {
+//         id: 3,
+//         name: 'Notion',
+//         pos: 'Junior Web Developer',
+//         duration: '2019 - 2020',
+//         title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+//         icon: 'assets/notion.svg',
+//         animation: 'salute',
+//     },
+// ];
+
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: 'assets/framer.svg',
+        name: 'Hamlet Dubai',
+        pos: 'Web Developer',
+        duration: '2023 - Present',
+        title: "Developed a responsive and visually engaging website for Hamlet Dubai using React and Tailwind CSS. Focused on creating a seamless user experience with clean navigation and dynamic layouts, tailored to the company’s requirements.",
+        icon: 'assets/react.svg',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: 'assets/figma.svg',
+        name: 'Bright Kashmir Holidays',
+        pos: 'Full-Stack Developer',
+        duration: '2022 - 2023',
+        title: "Built a professional website for Bright Kashmir Holidays, integrating a React-based front end with a robust Nestjs back end. Delivered a user-friendly platform for showcasing travel services, ensuring fast performance and scalability.",
+        icon: 'assets/nest.png',
         animation: 'clapping',
-    },
-    {
-        id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: 'assets/notion.svg',
-        animation: 'salute',
     },
 ];
