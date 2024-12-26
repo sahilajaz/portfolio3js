@@ -59,7 +59,7 @@ export const clientReviews = [
 export const myProjects = [
     {
         title: 'Stick Notes',
-        desc: 'Stickynotes is a revolutionary web app that transforms the way you organize your thoughts. With an intuitive interface, it allows users to quickly create, edit, and manage sticky notes for tasks, ideas, and reminders, all in one place.',
+        desc: 'Stickynotes is a  web app that transforms the way you organize your thoughts. With an intuitive interface, it allows users to quickly create, edit, and manage sticky notes for tasks, ideas, and reminders, all in one place.',
         subdesc: 'Built with React, Tailwind CSS, and powered by modern web technologies, Stickynotes offers seamless performance and an intuitive user experience for effortless note management.',
         href: 'https://notessticky12.netlify.app/',
         texture: '/textures/project/stickynotes.mp4',
