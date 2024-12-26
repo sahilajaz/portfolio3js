@@ -80,6 +80,16 @@ export const myProjects = [
                 name: 'TailwindCSS',
                 path: '/assets/tailwindcss.png',
             },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
+            },
         ],
     }
     ,
@@ -117,17 +127,7 @@ export const myProjects = [
                 id: 4,
                 name: 'Framer Motion',
                 path: '/assets/framer.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
+            }
         ],
     },
     {
